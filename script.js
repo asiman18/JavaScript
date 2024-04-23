@@ -1,10 +1,11 @@
 // task1.
 
 function Əligülü(str) {
+    str = str.toLowerCase();
     return str == str.split('').reverse().join('');
 }
 
-let Mamaddd = "radar";
+let Mamaddd = "Radar";
 
 if (Əligülü(Mamaddd)) {
     console.log(Mamaddd + " Palidromdur");
